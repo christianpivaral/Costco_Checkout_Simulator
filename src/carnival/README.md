@@ -3,7 +3,7 @@
 **Course:** CSC 311 — Java Programming  
 **Project:** Carnival Simulation (Producer–Consumer and Multithreading)  
 **Language:** Java  
-**Repository:** [Costco Checkout Simulator](https://github.com/christianpivara/Costco_Checkout_Simulator)
+**Repository:** [Costco Checkout Simulator](https://github.com/christianpivaral/Costco_Checkout_Simulator)
 
 ---
 
@@ -219,12 +219,11 @@ The results demonstrate correct ticket-limit enforcement, cotton candy distribut
 - Added a separate admission-only test mode.
 - Tested both the 120-attendee simulation and 5,005-attendee ticket-limit scenario.
 
-### Christian — Video Demonstration
+### Christian Pivaral — Repository Owner and Video Demonstration
 
-- Carnival simulation video demonstration: **To be added**
-- Video link: **Pending**
-
-The demonstration will explain and showcase the carnival simulation and its functionality.
+- Created and maintains the shared GitHub repository.
+- Recorded the video walkthrough of the carnival's threading design: ExecutorService thread pools, the AtomicInteger `compareAndSet` ticket limit, Semaphore-controlled booths, batch-boarding rides, and both test runs.
+- Video: [CSC 311 Extra Credit – Multithreaded Carnival Simulation](https://youtu.be/qcIazJ7S4IQ)
 
 ## 8. Future Improvements
 
@@ -244,4 +243,4 @@ This extra-credit project extends an existing concurrent ticket-admission simula
 
 The implementation demonstrates practical Java multithreading and coordination of shared resources.
 
-**Status:** Implementation and both simulation tests completed successfully. Video demonstration pending.
+**Status:** Implementation, both simulation tests, and video demonstration completed.
