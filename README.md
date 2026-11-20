@@ -1,10 +1,19 @@
 # CSC 311 – Costco Checkout Simulator (Producer–Consumer Lab)
 
-**Student:** Christian Pivaral
 **Course:** CSC 311, Dr. Alrajab, Module 12 Lab
 **Starter code:** [CSC311_Example_Threads_2](https://github.com/moaathalrajab/CSC311_Example_Threads_2), `ex2` package
+**Shared repo:** [christianpivaral/Costco_Checkout_Simulator](https://github.com/christianpivaral/Costco_Checkout_Simulator)
 
-This lab was completed individually. I wrote all of the code in the `costco` package, ran the experiments and wrote the analysis below. The original `Ex1`–`ex4` example packages are unchanged.
+## Team members and contributions
+
+| Member | Contribution |
+|---|---|
+| **Christian Pivaral** | Created the shared GitHub repository and added collaborators. Wrote `CheckoutQueue` (the shared `ArrayBlockingQueue` of customer IDs, blocking `join`/`next`, and the closing "poison pill"), plus the helper classes `Clock`, `Log` and `SimulationResult`. |
+| **Logan Raycraft** | Wrote `Customer`, the producer: shops for a random time, then joins the checkout line (blocking while the line is full). |
+| **Sahiti Attada** | Wrote `Cashier`, the consumer: repeatedly takes the next customer from the line, serves them, and records wait times and busy time. |
+| **All three** | Built the main class `CostcoSimulation` and the `Experiments` runner together, ran the five experiments, and wrote the staffing analysis and recommendation below. |
+
+The original `Ex1`–`ex4` example packages are unchanged.
 
 ---
 
