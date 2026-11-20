@@ -55,7 +55,7 @@ public class CarnivalAttendee implements Runnable {
         ));
 
         try {
-            if (!processedLatch.await(15, TimeUnit.SECONDS)) {
+            if (!processedLatch.await(180, TimeUnit.SECONDS)) {
                 status.set("Timed out waiting at Gate " + preferredGate);
             }
         } catch (InterruptedException e) {
