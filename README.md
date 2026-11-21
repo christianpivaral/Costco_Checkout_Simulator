@@ -3,7 +3,7 @@
 **Course:** CSC 311, Dr. Alrajab, Module 12 Lab
 **Starter code:** [CSC311_Example_Threads_2](https://github.com/moaathalrajab/CSC311_Example_Threads_2), `ex2` package
 **Shared repo:** [christianpivaral/Costco_Checkout_Simulator](https://github.com/christianpivaral/Costco_Checkout_Simulator)
-**Extra credit:** Carnival Simulation — see [`src/carnival/README.md`](src/carnival/README.md) · [Video demo](https://youtu.be/qcIazJ7S4IQ)
+**Extra credit:** Carnival Simulation — see [`src/carnival/README.md`](src/carnival/README.md) · [Video demo](https://youtu.be/WNuLlisIJHU)
 
 ## Team members and contributions
 

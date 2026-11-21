@@ -223,7 +223,7 @@ The results demonstrate correct ticket-limit enforcement, cotton candy distribut
 
 - Created and maintains the shared GitHub repository.
 - Recorded the video walkthrough of the carnival's threading design: ExecutorService thread pools, the AtomicInteger `compareAndSet` ticket limit, Semaphore-controlled booths, batch-boarding rides, and both test runs.
-- Video: [CSC 311 Extra Credit – Multithreaded Carnival Simulation](https://youtu.be/qcIazJ7S4IQ)
+- Video: [CSC 311 Extra Credit – Multithreaded Carnival Simulation](https://youtu.be/WNuLlisIJHU)
 
 ## 8. Future Improvements
 
